@@ -4,9 +4,11 @@ This repository contains two Python applications designed to work together to mo
 
 ## Expected Behavior
 The Slack bot (slackbot.py) will monitor messages that follow the format shown in the following image. When it detects a ticket update, it logs the user's name and the associated username. The bot ignores any usernames that do not end with 'rcc'.
+
 ![Slack Channel Screenshot](/docs/example_ticket_updates.png)
 
 The graph server (graphserver.py) reads the accumulated data and displays it in a bar graph, similar to the second provided image. The graph updates in real-time, showing the number of ticket updates per user.
+
 ![Graph Server](/docs/example_graph.png)
 
 ## Contents
